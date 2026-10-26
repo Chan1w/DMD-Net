@@ -1,0 +1,12 @@
+# Install the CUDA-compatible torch and torchvision builds for the target host first.
+torch
+torchvision
+numpy
+pillow
+tqdm
+diffusers==0.40.0
+transformers==5.17.0
+huggingface_hub==1.32.0
+safetensors==0.8.0
+lpips==0.1.4
+matplotlib==3.10.9

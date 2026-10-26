@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# Local datasets and model caches
+data/raw/
+datasets/
+cache/
+
+# Generated training/evaluation artifacts
+outputs/
+results/
+runs/
+logs/
+scripts/checkpoints/
+*.pth
+*.pt
+*.ckpt
